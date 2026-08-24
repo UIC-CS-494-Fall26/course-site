@@ -17,3 +17,25 @@ Upon completion of the course, students will be able to:
 * Analyze the security of systems that incorporate GenAI-based components
 * Design defensive architectures for GenAI-based systems
 * Evaluate the use of GenAI-based tools for systems and software vulnerability analysis
+
+# Textbook
+
+No required textbook. Materials used in class  will be based will be made available on this page.
+
+Reference books:
+
+Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Huang and Chris Hughes (Springer, 2026). 
+
+* Available as a free e-book from UIC Library.
+
+# Grading
+
+ * 30% for homework assignments (3-4 assignments in all)
+ * 25% for class project
+ * 15% for class participation
+ * 30% for exam
+
+# Disability Accomodations Statement
+
+UIC is committed to full inclusion and participation of people with disabilities. If you have a disability and need accommodations, please contact the Disability Resource Center (DRC) at drc@uic.edu or (312) 413-2183 to-get a Letter of Accommodation (LOA). Please share this letter with me early in the term so we can discuss your needs.
+
