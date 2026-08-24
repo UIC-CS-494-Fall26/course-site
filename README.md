@@ -37,9 +37,9 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 
 # Lectures
 	
-| Lecture Number and Topic | Slides                  |
-|-----------------------|----------------------------|
-| 1. Lecture 1: Welcome | [Slides](slides/lec01.pdf) |
+|Date |  Lecture Number and Topic | Slides                  |
+|-----|-----------------|----------------------------|
+|24 Aug 26 | 1. Lecture 1 -  Welcome | [Slides](slides/lec01.pdf) |
 
 
 # Acceptable Computer Use Policy of UIC
