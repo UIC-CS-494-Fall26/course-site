@@ -35,6 +35,17 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
  * 15% for class participation
  * 30% for exam
 
+# Lectures
+	
+| Lecture Number and Topic | Slides |
+-------------------------------------
+1. Lecture 1: Welcome | [Slides](slides/lec01.pdf)
+-------------------------------------
+
+
+# Acceptable Computer Use Policy of UIC
+[Acceptable Use Policy](https://policies.uic.edu/uic-policy-library/information-technology/acceptable-use-of-computational-resources/)
+
 # Disability Accomodations Statement
 
 UIC is committed to full inclusion and participation of people with disabilities. If you have a disability and need accommodations, please contact the Disability Resource Center (DRC) at drc@uic.edu or (312) 413-2183 to-get a Letter of Accommodation (LOA). Please share this letter with me early in the term so we can discuss your needs.
