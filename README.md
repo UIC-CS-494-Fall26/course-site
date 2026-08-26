@@ -40,7 +40,6 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |Date |  Lecture Number and Topic | Slides                  |
 |-----|-----------------|----------------------------|
 |24 Aug 26 | 1. Lecture 1 -  Welcome | [Slides](slides/lec01.pdf) |
-|-----|-----------------|----------------------------|
 |26 Aug 26 | 2. Lecture 2 -  Security Goals | [Slides](slides/lec02.pdf) |
 
 
