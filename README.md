@@ -42,6 +42,9 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |24 Aug 26 | 1. Lecture 1 -  Welcome | [Slides](slides/lec01.pdf) |
 |26 Aug 26 | 2. Lecture 2 -  Security Goals | [Slides](slides/lec02.pdf) |
 
+# Generative AI Policy
+
+Use of Generative AI tools is encouraged *except* when the guidance explicitly discourages it. Students are encouraged to experiment with, analyze, and understand the use and impact of GenAI tools. While these tools are great, the suggested mode of use and interaction is one that involves a considerable level of *caution and skepticism* when it comes to matters of correctness, security and trust, and adequate safeguards, as discussed in class, to be taken with the adoption of toools.
 
 # Acceptable Computer Use Policy of UIC
 [Acceptable Use Policy](https://policies.uic.edu/uic-policy-library/information-technology/acceptable-use-of-computational-resources/)
