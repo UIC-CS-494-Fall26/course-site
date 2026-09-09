@@ -42,7 +42,8 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |24 Aug 26 | 1. Lecture 1 -  Welcome | [Slides](slides/lec01.pdf) |
 |26 Aug 26 | 2. Lecture 2 -  Security Goals | [Slides](slides/lec02.pdf) |
 |31 Aug 26 | 3. Lecture 3 -  AI Background | [Slides](slides/lec03.pdf) |
-|02 Sep 26 | 4. Lecture 3 -  AI Background - Continued | [Slides](slides/lec04.pdf) |
+|02 Sep 26 | 4. Lecture 4 -  AI Background - Continued | [Slides](slides/lec04.pdf) |
+|09 Sep 26 | 5. Lecture 5 -  Agentic AI | [Slides](slides/lec05.pdf) |
 
 
 # Generative AI Policy
