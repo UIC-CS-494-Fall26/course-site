@@ -45,11 +45,12 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |02 Sep 26 | 4. Lecture 4 -  AI Background - Continued | [Slides](slides/lec04.pdf) |
 |09 Sep 26 | 5. Lecture 5 -  Agentic AI | [Slides](slides/lec05.pdf) |
 |14 Sep 26 | 6. Lecture 6 -  Prompt Injection | [Slides](slides/lec06.pdf) |
+|16 Sep 26 | 7. Lecture 7 -  Prompt Injection in the Real World | [Slides](slides/lec07.pdf) |
 
 
 # Generative AI Policy
 
-Use of Generative AI tools is encouraged *except* when the guidance explicitly discourages it. Students are encouraged to experiment with, analyze, and understand the use and impact of GenAI tools. While these tools are great, the suggested mode of use and interaction is one that involves a considerable level of *caution and skepticism* when it comes to matters of correctness, security and trust, and adequate safeguards, as discussed in class, to be taken with the adoption of tools.
+Use of Generative AI tools is encouraged *except* when the class guidance explicitly discourages it.  Students are encouraged to experiment with, analyze, and understand the use and impact of GenAI tools. While these tools are great, the suggested mode of use and interaction is one that involves a considerable level of *caution and skepticism* when it comes to matters of correctness, security and trust, and adequate safeguards, as discussed in class, to be taken with the adoption of tools.
 
 # Acceptable Computer Use Policy of UIC
 [Acceptable Use Policy](https://policies.uic.edu/uic-policy-library/information-technology/acceptable-use-of-computational-resources/)
