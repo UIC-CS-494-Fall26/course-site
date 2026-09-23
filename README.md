@@ -45,7 +45,10 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |02 Sep 26 | 4. Lecture 4 -  AI Background - Continued | [Slides](slides/lec04.pdf) |
 |09 Sep 26 | 5. Lecture 5 -  Agentic AI | [Slides](slides/lec05.pdf) |
 |14 Sep 26 | 6. Lecture 6 -  Prompt Injection | [Slides](slides/lec06.pdf) |
-|16 Sep 26 | 7. Lecture 7 -  Prompt Injection | [Slides](slides/lec06.pdf) |
+|16 Sep 26 | 7. Lecture 7 -  Prompt Injection | [Slides](slides/lec07.pdf) |
+|21 Sep 26 | 8. Lecture 8 -  Guest Lecture (Prof. Lenore Zuck) | |
+|23 Sep 26 | 9. Lecture 9 -  Prompt Injection in the Real World | [Slides](slides/lec09.pdf)  |
+
 
 
 # Generative AI Policy
