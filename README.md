@@ -48,6 +48,7 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |16 Sep 26 | 7. Lecture 7 -  Prompt Injection | [Slides](slides/lec07.pdf) |
 |21 Sep 26 | 8. Lecture 8 -  Guest Lecture (Prof. Lenore Zuck) | |
 |23 Sep 26 | 9. Lecture 9 -  Prompt Injection in the Real World | [Slides](slides/lec09.pdf)  |
+|29 Sep 26 | 10. Lecture 10 -  Prompt Injection Advanced attacks and Detection  | [Slides](slides/lec10.pdf)  |
 
 
 
