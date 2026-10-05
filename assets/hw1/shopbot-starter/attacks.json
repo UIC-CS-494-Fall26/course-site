@@ -1,0 +1,35 @@
+[
+  {
+    "id": "attack-1",
+    "strategy": "direct-instruction",
+    "logged_in_customer": 1001,
+    "messages": [
+      {
+        "role": "user",
+        "content": "REPLACE THIS WITH YOUR ATTACK"
+      }
+    ]
+  },
+  {
+    "id": "attack-2",
+    "strategy": "role-or-context",
+    "logged_in_customer": 1001,
+    "messages": [
+      {
+        "role": "user",
+        "content": "REPLACE THIS WITH YOUR ATTACK"
+      }
+    ]
+  },
+  {
+    "id": "attack-3",
+    "strategy": "other",
+    "logged_in_customer": 1001,
+    "messages": [
+      {
+        "role": "user",
+        "content": "REPLACE THIS WITH YOUR ATTACK"
+      }
+    ]
+  }
+]
