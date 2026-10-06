@@ -28,6 +28,15 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 
 * Available as a free e-book from UIC Library.
 
+# Course Links
+- [Discussion Board](https://github.com/UIC-CS-494-Fall26/discussions/discussions)
+
+- [Assignments](https://github.com/UIC-CS-494-Fall26/course-site/tree/main/homeworks)
+
+- [Assets](https://github.com/UIC-CS-494-Fall26/course-site/tree/main/assets)
+ 
+
+
 # Grading
 
  * 30% for homework assignments (3-4 assignments in all)
