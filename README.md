@@ -63,6 +63,11 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |07 Oct 26 | 13. Lecture 13 -  Jailbreaking LLMs | [Slides](slides/lec13.pdf)  |
 
 
+# Programming Assignments / Homework
+|Due Date and Time |  Assignment number and Topic | Slides                  |
+|-----|-----------------|----------------------------|
+|17 Oct 2026 at 11.59PM | 1. Homework -  Prompt Injection | [Description](homeworks/hw1-shopbot.pdf) |
+
 
 # Generative AI Policy
 
