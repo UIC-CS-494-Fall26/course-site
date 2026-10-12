@@ -61,6 +61,7 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |30 Sep 26 | 11. Lecture 11 -  Prompt Injection  -  Detection  | [Slides](slides/lec11.pdf)  |
 |05 Oct 26 | 12. Lecture 12 -  Prompt Injection  -  Prevention  | [Slides](slides/lec12.pdf)  |
 |07 Oct 26 | 13. Lecture 13 -  Jailbreaking LLMs | [Slides](slides/lec13.pdf)  |
+|12 Oct 26 | 14. Lecture 14 -  Jailbreaking - attacks and defenses | [Slides](slides/lec14.pdf)  |
 
 
 # Programming Assignments / Homework
