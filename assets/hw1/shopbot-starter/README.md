@@ -90,3 +90,23 @@ For Parts IV and V, rerun the same `attacks.json` after modifying your defenses.
 A prompt-level defense may reduce how often the model requests another customer's
 records. A robust application-level defense should prevent unauthorized records
 from being returned even if the model still makes such a request.
+
+## GitHub Classroom and GitHub Actions
+
+Submit HW1 by committing and pushing your required files to the private GitHub
+Classroom repository created when you accept the assignment invitation. See the
+separate **HW1 Submission Addendum** for the authoritative submission checklist
+and deadlines. Do not commit `.streamlit/secrets.toml`, API keys, `.venv`, or
+`attack-results.json`.
+
+Every push automatically runs **Validate attack submission** in the repository's
+Actions tab. This checks `attacks.json` without an OpenAI API key and without
+making API calls. It does not grade whether an attack succeeds.
+
+**Optional:** To replay attacks on GitHub Actions using *your own* API account,
+open repository **Settings > Secrets and variables > Actions** and create a
+repository secret named `OPENAI_API_KEY`. Then open **Actions > Replay attacks
+(optional) > Run workflow**. This runs `run_attacks.py` and uploads a short-lived
+`attack-results` artifact. It consumes credits from your own API account. You
+may instead test locally; the optional workflow is not required for submission.
+Never put an API key in a tracked file or print it in logs.

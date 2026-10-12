@@ -1,0 +1,39 @@
+name: Replay attacks (optional)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Validate attack JSON
+        run: python validate_attacks.py attacks.json
+      - name: Check student API key is configured
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo 'Missing OPENAI_API_KEY repository secret. Add your own API key under Settings > Secrets and variables > Actions, or test locally.'
+            exit 1
+          fi
+      - name: Install ShopBot dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Replay submitted attacks
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python run_attacks.py attacks.json
+      - name: Upload replay trace
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: attack-results
+          path: attack-results.json
+          if-no-files-found: ignore
+          retention-days: 7
