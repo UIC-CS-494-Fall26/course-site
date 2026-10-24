@@ -63,6 +63,8 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |07 Oct 26 | 13. Lecture 13 -  Jailbreaking LLMs | [Slides](slides/lec13.pdf)  |
 |12 Oct 26 | 14. Lecture 14 -  Jailbreaking - attacks and defenses | [Slides](slides/lec14.pdf)  |
 |14 Oct 26 | 15. Lecture 15 -  Agent Security - Introduction | [Slides](slides/lec15.pdf)  |
+|19 Oct 26 | 16. Lecture 16 -  Agent Security - Five Principles | [Slides](slides/lec16.pdf)  |
+|21 Oct 26 | 17. Lecture 17 -  Agent Security - Five Principles (contd.) | [Slides](slides/lec17.pdf)  |
 
 
 # Programming Assignments / Homework
