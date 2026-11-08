@@ -66,7 +66,10 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |19 Oct 26 | 16. Lecture 16 -  Agent Security - Five Principles | [Slides](slides/lec16.pdf)  |
 |21 Oct 26 | 17. Lecture 17 -  Agent Security - Five Principles (contd.) | [Slides](slides/lec17.pdf)  |
 |26 Oct 26 | 18. Lecture 18 -  Agent Security - Real World Attacks | [Slides](slides/lec18.pdf)  |
-|28 Oct 26 | 19. Lecture 18 -  Agent Security - Real World Attacks | [Slides](slides/lec19.pdf)  |
+|28 Oct 26 | 19. Lecture 19 -  Agent Defenses - Introduction | [Slides](slides/lec19.pdf)  |
+|02 Nov 26 | 20. Lecture 20 -  Agent Defenses - Sandboxing | [Slides](slides/lec20.pdf)  |
+|04 Nov 26 | 21. Lecture 21 -  Agent Defenses - Sandboxing | [Slides](slides/lec21.pdf)  |
+
 
 
 # Programming Assignments / Homework
