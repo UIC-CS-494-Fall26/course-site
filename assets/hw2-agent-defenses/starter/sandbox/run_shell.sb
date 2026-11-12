@@ -1,0 +1,11 @@
+; Part II: a macOS sandbox profile for run_shell.
+; The harness passes the workspace path as the parameter WS: (param "WS").
+;
+; TODO (Part II): replace the allow-everything profile below. Inside the sandbox:
+;   - no network at all;
+;   - writes only under WS/src and WS/tests (plus /dev/null and temp folders);
+;   - optional: no reads of WS/.env.
+; Useful forms: (deny network*), (deny file-write*), (allow file-write* (subpath ...)),
+;               (literal ...), (string-append (param "WS") "/src").
+(version 1)
+(allow default)
