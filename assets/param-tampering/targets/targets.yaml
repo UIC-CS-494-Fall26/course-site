@@ -1,0 +1,90 @@
+# Targets for the parameter-tampering hunt.
+# Every CVE below was checked against the NVD API (services.nvd.nist.gov) and its
+# fix (commit or plugin release diff) on 2026-11-16.
+# `reproduced` turns true only after the tampering request succeeds against the
+# vulnerable version and fails against the fixed version on a local Docker run.
+#
+# The `shape` field maps each target to a row of the "Six shapes" slide.
+# The `hint` field is for students. The answer key lives in ../../param-tampering-key/.
+
+- name: ninja-forms
+  cve: CVE-2026-65052
+  cwe: CWE-472
+  app: Ninja Forms (WordPress plugin, PHP)
+  repo: https://plugins.svn.wordpress.org/ninja-forms/
+  vulnerable: "3.14.8"
+  fixed: "3.14.9"
+  run: wordpress image + plugin zip from downloads.wordpress.org
+  port: 8781
+  shape: select / radio options
+  hint: A form with a priced drop-down and a calculated total.
+  reproduced: false
+
+- name: wp-time-slots
+  cve: CVE-2024-33543
+  cwe: CWE-862 (NVD); Wordfence and Patchstack list the bug as price manipulation
+  app: WP Time Slots Booking Form (WordPress plugin, PHP)
+  repo: https://plugins.svn.wordpress.org/wp-time-slots-booking-form/
+  vulnerable: "1.2.06"
+  fixed: "1.2.07"
+  run: wordpress image + plugin zip from downloads.wordpress.org
+  port: 8782
+  shape: JavaScript-computed field
+  hint: A booking form that shows a running total.
+  reproduced: false
+
+- name: kanboard
+  cve: CVE-2026-29056
+  cwe: CWE-915
+  app: Kanboard (PHP)
+  repo: https://github.com/kanboard/kanboard
+  vulnerable: v1.2.50
+  fixed: v1.2.51
+  fix_commit: f3ac87ce
+  run: kanboard/kanboard:v1.2.50 (Docker Hub)
+  port: 8783
+  shape: no field at all (mass assignment)
+  hint: Users can join through an invite link.
+  reproduced: true  # 2026-11-16: role=app-admin accepted on v1.2.50, stripped on v1.2.51
+
+- name: rconfig
+  cve: CVE-2026-63102
+  cwe: CWE-915
+  app: rConfig Core (Laravel, PHP)
+  repo: https://github.com/rconfig/rconfig
+  vulnerable: "8.2.7"
+  fixed: "8.2.8"
+  fix_commit: 84822f4051ed97d651b1b4d191c6da2aa8c3c037
+  run: rconfig/rconfig:8.2.7 (Docker Hub)
+  port: 8784
+  shape: no field at all (mass assignment)
+  hint: Authenticated users can create accounts and update profiles through the Users API.
+  reproduced: true  # 2026-11-16: non-admin PATCH role=Admin -> 200 on 8.2.7, 403 on 8.2.8
+
+- name: shopizer
+  cve: CVE-2020-11007
+  cwe: none listed (GHSA-w8rc-pgxq-x2cj)
+  app: Shopizer (Java, Spring)
+  repo: https://github.com/shopizer-ecommerce/shopizer
+  vulnerable: "2.7.0 (affected: < 2.11.0)"
+  fixed: "2.11.0 (Docker image 2.17 used as the fixed run)"
+  fix_commit: 929ca0839a80c6f4dad087e0259089908787ad2a
+  run: shopizerecomm/shopizer:2.7.0 (Docker Hub)
+  port: 8785
+  shape: min / max
+  hint: The cart page has a quantity box.
+  reproduced: false
+
+- name: microweber
+  cve: CVE-2023-6832
+  cwe: none listed (GHSA-qjfx-fvx7-3wvw)
+  app: Microweber (Laravel, PHP)
+  repo: https://github.com/microweber/microweber
+  vulnerable: "1.3.5 (affected: < 2.0.0)"
+  fixed: "2.0.0"
+  fix_commit: 890e9838aabbc799ebefcf6b20ba25e0fd6dbfee
+  run: microweber/microweber:1.3.5 (Docker Hub)
+  port: 8786
+  shape: disabled feature (the form hides the field once the admin turns the feature off)
+  hint: The admin can switch coupons off.
+  reproduced: false

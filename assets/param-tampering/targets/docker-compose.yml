@@ -1,0 +1,15 @@
+# Two apps that run in one container each. Bring them up before class.
+#   docker compose -f targets/docker-compose.yml up -d
+# Both bind to 127.0.0.1 only. Stop with `... down`.
+services:
+  toyshop:
+    build: ../toyshop
+    environment:
+      HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:8770:8770"
+
+  kanboard:                      # CVE-2026-29056, role mass assignment
+    image: kanboard/kanboard:v1.2.50
+    ports:
+      - "127.0.0.1:8783:80"

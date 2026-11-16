@@ -1,0 +1,4 @@
+# For the fallback scripts (triage.py, whitebox.py). Students who use a chat
+# window or a coding agent need none of this.
+litellm>=1.40
+pyyaml>=6.0
