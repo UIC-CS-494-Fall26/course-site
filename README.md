@@ -71,6 +71,8 @@ Securing AI Agents: Foundations, Frameworks, and Real-World Deployment - Ken Hua
 |04 Nov 26 | 21. Lecture 21 -  Agent Defenses - Sandboxing | [Slides](slides/lec21.pdf)  |
 |09 Nov 26 | 22. Lecture 22 -  Agent Defenses - Information Flow| [Slides](slides/lec22.pdf)  |
 |11 Nov 26 | 23. Lecture 23 -  Agent Defenses - Information Flow| [Slides](slides/lec23.pdf)  |
+|16 Nov 26 | 24. Lecture 24 -  Parameter Tampering Hunting with LLMs| [Slides](slides/lec24.pdf)  |
+
 
 
 
