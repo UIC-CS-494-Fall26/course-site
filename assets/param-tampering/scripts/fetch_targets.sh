@@ -16,7 +16,8 @@ clone_at() {  # repo  ref  dir
 }
 
 plugin_zip() {  # slug  version
-  local slug="$1" ver="$2" dir="$SRC/$slug"
+  local slug="$1" ver="$2"
+  local dir="$SRC/$slug"
   if [ -d "$dir" ]; then echo "[skip] $slug already fetched"; return; fi
   echo "[fetch] $slug $ver (WordPress plugin)"
   local zip; zip="$(mktemp -t "$slug").zip"
