@@ -1,0 +1,67 @@
+# Targets for the SQL-injection hunt.
+# Every CVE below was checked against the NVD API as CWE-89 and confirmed
+# downloadable on 2026-11-18. `reproduced` turns true only after a safe probe
+# shows a vulnerable-vs-fixed difference across the pinned versions.
+#
+# `context` maps each target to a row of the "Where injection hides" slide.
+# The answer key lives in ../../sql-injection-key/.
+
+- name: wp-polls
+  cve: CVE-2024-13426
+  cwe: CWE-89
+  app: WP-Polls (WordPress plugin, PHP)
+  slug: wp-polls
+  vulnerable: "2.77.2"
+  fixed: "2.77.3"
+  auth: unauthenticated
+  injection: a cookie
+  context: string value, via a cookie
+  reproduced: true  # 2026-11-18: second-order sink confirmed vuln vs fix at polls-logs.php:98
+
+- name: paid-member-subscriptions
+  cve: CVE-2025-49870
+  cwe: CWE-89
+  app: Paid Member Subscriptions (WordPress plugin, PHP)
+  slug: paid-member-subscriptions
+  vulnerable: "2.15.1"
+  fixed: "2.15.2"
+  auth: unauthenticated
+  injection: a request parameter
+  context: string value
+  reproduced: false
+
+- name: woo-product-filter
+  cve: CVE-2025-8416
+  cwe: CWE-89
+  app: Product Filter by WBW (WordPress plugin, PHP)
+  slug: woo-product-filter
+  vulnerable: "2.9.7"
+  fixed: "2.9.8"
+  auth: unauthenticated
+  injection: the POST parameter 'filtersDataBackend'
+  context: string value
+  reproduced: false
+
+- name: wpdirectorykit
+  cve: CVE-2024-3217
+  cwe: CWE-89
+  app: WP Directory Kit (WordPress plugin, PHP)
+  slug: wpdirectorykit
+  vulnerable: "1.3.0"
+  fixed: "1.3.1"
+  auth: authenticated (subscriber or higher)
+  injection: the 'attribute_value' and 'attribute_id' parameters
+  context: string value
+  reproduced: false
+
+- name: forkcms
+  cve: CVE-2022-0153
+  cwe: CWE-89
+  app: Fork CMS (standalone PHP CMS)
+  repo: https://github.com/forkcms/forkcms
+  vulnerable: "5.11.0"
+  fixed: "5.11.1"
+  auth: varies by endpoint
+  injection: a request parameter
+  context: string value (standalone target)
+  reproduced: false

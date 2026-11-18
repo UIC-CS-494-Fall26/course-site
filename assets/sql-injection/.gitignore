@@ -1,0 +1,4 @@
+targets/src/
+__pycache__/
+*.pyc
+*.jar
